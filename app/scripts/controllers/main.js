@@ -9,9 +9,5 @@
  */
 angular.module('speedInMyHoodApp')
   .controller('MainCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+    $scope.searches = [{label: 'Neighborhood'}, {label:'Address'}];
   });

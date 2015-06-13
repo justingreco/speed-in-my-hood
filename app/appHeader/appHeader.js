@@ -1,10 +1,10 @@
-angular.module('imapsNgApp')
+angular.module('speedInMyHoodApp')
 .directive('appHeader', function () {
 	return {
 		templateUrl: 'appHeader/appHeader.html',
 		restrict: 'E',
 		scope: {
-			title: "="
+			title: "@"
 		},
 		controller: function ($scope, $rootScope) {
 			$("app-header").appendTo('body');

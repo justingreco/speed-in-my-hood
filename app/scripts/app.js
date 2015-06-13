@@ -10,7 +10,7 @@
  */
 angular
   .module('speedInMyHoodApp', [
-    'ngAnimate',
+
     'ngCookies',
     'ngResource',
     'ngRoute',
